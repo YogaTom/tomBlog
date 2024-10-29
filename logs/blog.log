@@ -1,0 +1,92 @@
+ERROR 2024-10-29 14:04:09,298 log 14004 23060 Internal Server Error: /article/article-update/20/
+Traceback (most recent call last):
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "E:\djangoProjectLatest\myBlog\article\views.py", line 167, in article_update
+    article.tags.set(*request.POST.get('tags').split(','), clear=True)
+  File "E:\djangoProjectLatest\env\lib\site-packages\taggit\utils.py", line 124, in inner
+    return func(self, *args, **kwargs)
+TypeError: set() takes 2 positional arguments but 3 were given
+ERROR 2024-10-29 14:06:45,094 log 22476 12880 Internal Server Error: /article/article-update/20/
+Traceback (most recent call last):
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "E:\djangoProjectLatest\myBlog\article\views.py", line 167, in article_update
+    article.tags.set(*request.POST.get('tags').split(','), clear=True)
+  File "E:\djangoProjectLatest\env\lib\site-packages\taggit\utils.py", line 124, in inner
+    return func(self, *args, **kwargs)
+TypeError: set() takes 2 positional arguments but 3 were given
+ERROR 2024-10-29 14:06:47,942 log 22476 12880 Internal Server Error: /article/article-update/20/
+Traceback (most recent call last):
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "E:\djangoProjectLatest\myBlog\article\views.py", line 167, in article_update
+    article.tags.set(*request.POST.get('tags').split(','), clear=True)
+  File "E:\djangoProjectLatest\env\lib\site-packages\taggit\utils.py", line 124, in inner
+    return func(self, *args, **kwargs)
+TypeError: set() takes 2 positional arguments but 3 were given
+ERROR 2024-10-29 14:06:52,442 log 22476 12880 Internal Server Error: /article/article-update/20/
+Traceback (most recent call last):
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "E:\djangoProjectLatest\myBlog\article\views.py", line 167, in article_update
+    article.tags.set(*request.POST.get('tags').split(','), clear=True)
+  File "E:\djangoProjectLatest\env\lib\site-packages\taggit\utils.py", line 124, in inner
+    return func(self, *args, **kwargs)
+TypeError: set() takes 2 positional arguments but 3 were given
+ERROR 2024-10-29 14:07:05,647 log 22476 12880 Internal Server Error: /article/article-update/20/
+Traceback (most recent call last):
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "E:\djangoProjectLatest\myBlog\article\views.py", line 167, in article_update
+    article.tags.set(*request.POST.get('tags').split(','), clear=True)
+  File "E:\djangoProjectLatest\env\lib\site-packages\taggit\utils.py", line 124, in inner
+    return func(self, *args, **kwargs)
+TypeError: set() takes 2 positional arguments but 3 were given
+ERROR 2024-10-29 14:07:27,383 log 22476 12880 Internal Server Error: /article/article-update/20/
+Traceback (most recent call last):
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "E:\djangoProjectLatest\myBlog\article\views.py", line 167, in article_update
+    article.tags.set(*request.POST.get('tags').split(','), clear=True)
+  File "E:\djangoProjectLatest\env\lib\site-packages\taggit\utils.py", line 124, in inner
+    return func(self, *args, **kwargs)
+TypeError: set() takes 2 positional arguments but 3 were given
+ERROR 2024-10-29 14:15:10,046 log 6972 28948 Internal Server Error: /article/article-update/28/
+Traceback (most recent call last):
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoProjectLatest\env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "E:\djangoProjectLatest\myBlog\article\views.py", line 167, in article_update
+    article.tags.set(*request.POST.get('tags').split(','), clear=True)
+  File "E:\djangoProjectLatest\env\lib\site-packages\taggit\utils.py", line 124, in inner
+    return func(self, *args, **kwargs)
+TypeError: set() takes 2 positional arguments but 4 were given
+WARNING 2024-10-29 14:16:57,452 log 20060 19664 Not Found: /favicon.ico
